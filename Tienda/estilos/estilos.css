@@ -1,0 +1,70 @@
+/* Estilos para pagina principal */
+
+
+
+body {
+    border: 4px double navy;
+    margin: 14px;
+    padding: 20px;
+    text-align: center;
+    background-image: url("https://wallpaperaccess.com/full/1216335.jpg");
+    background-size: 100% 100%;
+    border-radius: 14px;
+    font-size: 20px;
+}
+
+h1, h2 {
+    color: black;
+    text-shadow: 7px 4px 5px grey;
+    text-transform: uppercase;
+}
+
+nav {
+    border: 2px solid black;
+    padding: 40px;
+    background-image: url('https://img.freepik.com/free-vector/blue-curve-frame-template_53876-116707.jpg?w=740&t=st=1674014146~exp=1674014746~hmac=2453ccec99191cab7fa36639ccf88a498df2d802b26a2fb45f0fd61a1f592d9e');
+    background-size: 100% 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu a {
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+@media (max-width: 700px) {
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu a {
+        margin: 10px 0;
+    }
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    position: relative;
+}
+
+.header-section li {
+    font-size: 18px;
+    display: inline-block;
+}
+
+.footerFlex {
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+}
+
+.footerFlex li {
+    list-style: none;
+}
+

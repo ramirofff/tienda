@@ -1,0 +1,73 @@
+body {
+    border: 4px double white;
+    margin: 14px;
+    padding: 20px;
+    text-align: center;
+    background: url("https://images.pexels.com/photos/937980/pexels-photo-937980.jpeg?cs=srgb&dl=pexels-tetyana-kovyrina-937980.jpg&fm=jpg") no-repeat center fixed;
+    background-size: cover;
+    border-radius: 14px;
+    font-size: 20px;
+}
+
+h1, h2, p {
+    color: white;
+    text-shadow: 7px 4px 5px blue;
+}
+
+nav {
+    border: 2px solid black;
+    padding: 50px;
+    background-image: url('https://img.freepik.com/free-vector/blue-curve-frame-template_53876-116707.jpg?w=740&t=st=1674014146~exp=1674014746~hmac=2453ccec99191cab7fa36639ccf88a498df2d802b26a2fb45f0fd61a1f592d9e');
+    background-size: 100% 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu a {
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+@media (max-width: 700px) {
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu a {
+        margin: 10px 0;
+    }
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    position: relative;
+}
+
+.carrito-imagen, .logo {
+    max-width: 50px;
+    border-radius: 30px;
+}
+
+.row {
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 10px 5px;
+    color: white;
+}
+
+.footerFlex {
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    list-style: none;
+    color: white;
+}
+
+strong, hr {
+    color: white;
+}

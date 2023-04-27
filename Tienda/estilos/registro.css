@@ -1,0 +1,32 @@
+body {
+    background-color: grey;
+    text-align: center;
+    background: url("https://wallpaperaccess.com/full/2489626.jpg") no-repeat center fixed;
+    background-size: cover;
+  }
+
+  h1 {
+    color: black;
+    font-size: 50px;
+    text-shadow: 7px 4px 5px grey;
+    font-style: oblique;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  form{
+    color: black;
+    margin: 15px auto;
+    padding: 15px;
+  }
+
+  .form1 {
+    margin: 0 auto;
+    width: 250px;
+  }
+
+  label {
+    font-size: 20px;
+  }

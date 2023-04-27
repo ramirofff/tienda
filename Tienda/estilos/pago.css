@@ -1,0 +1,38 @@
+h1 {
+    font-size: 50px;
+    font-style: oblique;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  form {
+    color: dark;
+  }
+
+  .form1 {
+    margin: auto;
+    width: 300px;
+  }
+
+  .form2 {
+    margin: auto;
+    width: 140px;
+    display: inline;
+  }
+
+  body {
+    text-align: center;
+    background: url('https://s3.amazonaws.com/mitiendape/uploads/mitienda_/blog/cellphone%20appsmesa%20de%20trabajo%2011-100.jpg') no-repeat center fixed;
+    background-size: cover;
+  }
+
+  label {
+    font-size: 20px;
+  }
+
+  small {
+    color: white;
+    font-size: 15px;
+  }
